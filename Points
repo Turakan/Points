@@ -1,0 +1,6 @@
+local args = {
+    [1] = "Deposit",
+    [2] = -92233720360
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.Gui.PointDepositBox:FireServer(unpack(args))
